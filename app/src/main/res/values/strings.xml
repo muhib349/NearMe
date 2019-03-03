@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Near Me</string>
+
+    <string-array name="phoneCode">
+        <item>880</item>
+        <item>61</item>
+        <item>994</item>
+        <item>49</item>
+        <item>675</item>
+    </string-array>
+    
+    <string name="emptyField">Field not be empty</string>
+    <string name="invalidEmail">Enter a Valid Email</string>
+    <string name="invalidLength">Length should be minimum 6</string>
+    <string name="phoneLength">Enter your 10 digit phone number</string>
+    <string name="emptyCountry">Select Your Country</string>
+    <string name="emptyResidence">Select Your Residence</string>
+    <string name="regSuccess">Successfully Registered</string>
+</resources>

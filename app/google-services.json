@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "341521301812",
+    "firebase_url": "https://near-me-2fe86.firebaseio.com",
+    "project_id": "near-me-2fe86",
+    "storage_bucket": "near-me-2fe86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341521301812:android:27e4b5c40f738b62",
+        "android_client_info": {
+          "package_name": "com.example.nearme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341521301812-e2g3gule1h25adc94bapbev8l2vo647v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nearme",
+            "certificate_hash": "49c01dcaaa52e9d6d31717cec9ec92cbcfe43ac5"
+          }
+        },
+        {
+          "client_id": "341521301812-kran8752hi8ur9v84oil2227g05ajaa1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs0BcfdNcaIJwLjCUaCAvnGtQDNcBmx9g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341521301812-kran8752hi8ur9v84oil2227g05ajaa1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

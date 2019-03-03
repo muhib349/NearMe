@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fourty_dp">60dp</dimen>
+    <dimen name="eight_dp">12dp</dimen>
+    <dimen name="twenty_dp">30dp</dimen>
+    <dimen name="ten_dp">15dp</dimen>
+    <dimen name="fifty_dp">75dp</dimen>
+    <dimen name="five_dp">7.5dp</dimen>
+    <dimen name="eighteen_sp">27sp</dimen>
+    <dimen name="sixteen_dp">24dp</dimen>
+    <dimen name="two_dp">3dp</dimen>
+</resources>

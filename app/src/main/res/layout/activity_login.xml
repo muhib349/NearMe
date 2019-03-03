@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Login">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="@dimen/fourty_dp">
+
+
+        <EditText
+            android:textSize="@dimen/eighteen_sp"
+            android:id="@+id/etEmail"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:drawablePadding="@dimen/eight_dp"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:textSize="@dimen/eighteen_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etEmail"
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_marginBottom="@dimen/ten_dp"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="@dimen/eight_dp"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:textSize="@dimen/eighteen_sp"
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etPassword"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/fifty_dp"
+            android:text="Login" />
+
+        <TextView
+            android:textSize="@dimen/eighteen_sp"
+            android:id="@+id/tvForgetPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etPassword"
+            android:layout_alignParentRight="true"
+            android:text="Forgot Password?"
+            android:textColor="@color/primaryColor" />
+
+        <CheckBox
+            android:id="@+id/cbChecked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etPassword" />
+
+        <TextView
+            android:textSize="@dimen/eighteen_sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etPassword"
+            android:layout_marginTop="@dimen/five_dp"
+            android:layout_toRightOf="@+id/cbChecked"
+            android:text="Remember Me"
+            android:textColor="@color/primaryColor" />
+
+        <TextView
+            android:textSize="@dimen/eighteen_sp"
+            android:id="@+id/tvCreateAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLogin"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:text="Not a member? Create Account"
+            android:textColor="@color/primaryColor" />
+
+        <ProgressBar
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/login_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>
